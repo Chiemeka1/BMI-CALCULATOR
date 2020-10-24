@@ -1,0 +1,26 @@
+function numbers(){
+    let a = document.greatForm.a.value;
+    let b = document.greatForm.b.value;
+    let c = document.greatForm.c.value;
+    let d = document.greatForm.d.value;
+
+    if (a>b && a>c && a>d )
+{
+    document.greatForm.max_value.value = " A is the greatest";
+}
+else if (b>a && b>c && b>d )
+{
+    document.greatForm.max_value.value = " B is the greatest";
+}
+else if (c>a && c>b && c>d )
+{
+    document.greatForm.max_value.value = " C is the greatest";
+}
+
+else
+{
+    document.greatForm.max_value.value = " D is the greatest";
+}
+    
+
+}
